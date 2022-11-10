@@ -113,8 +113,8 @@ body {
     padding-left: 0;
 }
 
-/*
-.asideProducts ol li::before {
+
+.asideProducts ol li a::before {
     counter-increment: orderedlist;
     content: "#" counter(orderedlist) ;
     color: grey;
@@ -122,10 +122,10 @@ body {
     font-size: 1rem;
     font-family:monospace;
 }
-.asideProducts ol li::after {
+/* .asideProducts ol li::after {
     content: " ";
-}
-*/
+} */
+
 .asideProducts ol li a {
     color: #508991;
     text-decoration: none;
