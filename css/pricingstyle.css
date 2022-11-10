@@ -1,0 +1,111 @@
+
+main {
+    padding: 1rem 0 1rem 0;
+    flex-direction: row;
+}
+
+main > #pricing {
+    flex-direction: column;
+    align-self: center;
+}
+
+.asideProducts {
+    margin-left: auto;
+    padding-left: 1rem;
+}
+
+/* Grid */
+.grid-holder {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-holder-sections {
+    display: inline-grid;
+    grid-template-rows: repeat(2, 0fr);
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    gap: 10px;
+    margin: 0px;
+    width: 100%;
+}
+
+
+.bottom-aside {
+    grid-row: 1;
+}
+
+.articles {
+    grid-column: 1;
+    grid-row:1;
+}
+
+article {
+    display: block;
+}
+
+.bottom-holder {
+    grid-column: 1;
+    grid-row: 2;
+}
+/* End Grid */
+
+/* Table */
+.pricing-table {
+    padding-top: 5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow:auto;
+}
+
+.pricing-table > tbody > tr > td {
+    padding: 20px;
+    text-align: center;
+}
+#pricing-table-header > td {
+    border: 1px solid white;
+}
+main > footer {
+    padding-top: 5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+} 
+/* End Table */
+
+
+@media (min-width: 720px) and (max-width: 1200px) {
+    main {
+        padding: 1rem 0 1rem 0;
+        flex-direction: column;
+    }
+    .asideProducts {
+        margin-left: unset;
+        padding-left: 1rem;
+    }
+    .asideProducts > aside > ol > li {
+        display: inline flow-root list-item;
+    }
+    #asideProduct1 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 720px) {
+    main {
+        padding: 1rem 0 1rem 0;
+        flex-direction: column;
+    }
+    .asideProducts {
+        margin-left: unset;
+        padding-left: 1rem;
+    }
+    .pricing-table {
+        padding-top: unset;
+        padding-left: unset;
+        padding-right: unset;
+        overflow:auto;
+    }
+}
