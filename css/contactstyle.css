@@ -9,35 +9,35 @@ form {
     border: 2px none;
     border-radius: 3px;
     background: #004346;
-    box-shadow: 0 0 4rem 4rem  #004346;
+    box-shadow: 0 0 4rem 4rem #004346;
 
     display: flex;
     gap: 5px;
     flex-direction: column;
 }
 
-form > fieldset {
+form>fieldset {
     background: #011f20;
     border: 0 none;
     border-radius: 3px;
-    border-style:groove dashed;
-    border-width:3px;
+    border-style: groove dashed;
+    border-width: 3px;
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
 }
 
-form > fieldset > input {
+form>fieldset>input {
     width: 100%;
     border-color: #508991;
 }
 
-form > input {
+form>input {
     background-color: #015a5f;
     border-radius: 10px;
     border: 2px none;
-    color:white;
+    color: white;
 }
 
-form > input:hover {
+form>input:hover {
     cursor: pointer;
 }
 
@@ -55,11 +55,13 @@ article {
     #asideProduct1 {
         display: block;
     }
+
     .asideProducts {
         margin-left: unset;
         padding-left: 1rem;
     }
-    .asideProducts > aside > ol > li {
+
+    .asideProducts>aside>ol>li {
         display: unset;
     }
 }
@@ -70,6 +72,7 @@ article {
         padding: 1rem 0 1rem 0;
         flex-direction: column;
     }
+
     .asideProducts {
         margin-left: unset;
         padding-left: 1rem;
