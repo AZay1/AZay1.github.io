@@ -13,7 +13,7 @@
 /* Generics */
 body {
     background-color: #000000;
-    color: white;
+    color: #d4d4d4;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
@@ -25,7 +25,7 @@ body {
 
 .page-footer a {
     text-decoration: none;
-    color: blue;
+    color: #003cff;
 }
 
 /* Nav Bar*/
@@ -71,6 +71,10 @@ body {
 
 .header h1 {
     font-size: 2rem;
+    letter-spacing: normal;
+    line-height: normal;
+    text-indent: 4px;
+    word-spacing: 6px;
 }
 
 .header h1::first-letter {
@@ -130,7 +134,6 @@ body {
 .asideProducts ol li img {
     height: auto;
     width: 14rem;
-    float: end;
 }
 
 .asideCookie {
@@ -142,6 +145,7 @@ body {
     padding: 2rem;
     bottom: 0;
     right: 0;
+    z-index: 9999;
 }
 
 .asideCookie * {
@@ -173,7 +177,6 @@ body {
     article img {
         height: 10rem;
         width: auto;
-        float: end;
     }
 
     .mobile {
@@ -202,7 +205,6 @@ body {
     article img {
         height: 20rem;
         width: auto;
-        float: end;
     }
 
     .asideProducts {
@@ -394,4 +396,12 @@ video {
 
 a:hover {
     color: #75dddd;
+}
+
+a:visited {
+    color: #c55337;
+}
+
+a:active {
+    color: #FA0;
 }
