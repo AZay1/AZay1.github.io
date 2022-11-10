@@ -1,0 +1,5 @@
+Student name: Artur Zaytsev
+Student number: 696861
+Student class: IT1A
+URL student GitHub website: http://136.244.100.94/
+URL student GitHub repository: https://github.com/HUSKI3
