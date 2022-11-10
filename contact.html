@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sport Center</title>
+    <link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/pricingstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/contactstyle.css">
+    <meta name="author" content="Artur Zaytsev">
+    <meta name="description" content="Products page">
+    <meta name="keywords" content="products, tech, health">
+    <!-- Tell the browser to use the UTF-8 decoding so the heart emoji works -->
+    <meta charset="UTF-8">
+    <!-- Tell the browser to ignore native pixel density and use the relative scaling -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <section class="header">
+        <!-- 
+            Override is for RobotMicha @ https://github.com/HUSKI3/RobotMicha
+            It's a tool I've created to automatically check this assignment
+            against a set of rules
+         -->
+        <img override src="img/logo.png" alt="Logo" title="Logo" id="logo">
+        <h1 class="notable_font">Smartify Health Co</h1>
+        <h2 class="desktop">Using tech to your <strong>healthy</strong> advantage!</h2>
+    </section>
+
+    <nav class="desktop nav">
+        <ul class="nav_ul">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="mobile nav">
+        <input class="menu_input" type="checkbox" id="menu_input" />
+        <label class="hamburger" for="menu_input"><span class="hamburger-line"></span></label>
+        <ul class="mobile nav_ul">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="content">
+            <section>
+                <article>
+                    <h4>Contact Information:</h4>
+                    <p>SmartifyHealth Co</p>
+                    <p>1619 John Daniel Drive</p>
+                    <p>Bourbon, MO 65441</p>
+                    <code>+1 573-732-7314</code>
+                </article>
+            </section>
+            <form action="">
+                <fieldset>
+                    <legend>Your name:</legend>
+    
+                    <input type="text" name="name" id="">
+                </fieldset>
+                <fieldset>
+                    <legend>Your email:</legend>
+    
+                    <input type="text" name="email" id="">
+                </fieldset>
+                <fieldset>
+                    <legend>Your message:</legend>
+    
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section class="asideProducts">
+            <aside>
+                <h4>Top Products</h4>
+            <ol>
+                <li id="asideProduct1">
+                    <a href="">
+                        <figure>
+                            <img src="img/smartwatch_samsung.webp" alt="Samsung 5 Watch" title="Samsung 5 Watch">
+                            <figcaption>
+                                Samsung Watch 5 LTE
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <figure>
+                            <img src="img/yoga.webp" alt="Cat" title="Cat">
+                            <figcaption>
+                                Smart Yoga Mat
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <figure>
+                            <img src="img/beacon_smart_mat.jpg" alt="Cat" title="Cat">
+                            <figcaption>
+                                Beacon Smart Yoga Mat
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ol>
+            </aside>
+        </section>
+    </main>
+</body>
+<footer class="page-footer">
+    <p>&copy; 2022 Artur Zaytsev</p>
+    <p>Made with &hearts; and <a href="https://github.com/HUSKI3/RobotMicha">RobotMicha</a></p>
+    <aside class="asideCookie">
+        <h4>Cookie Statement</h4>
+        <p>This website uses cookies!... Or not?</p>
+    </aside>
+</footer>
+
+</html>
