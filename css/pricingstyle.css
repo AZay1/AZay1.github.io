@@ -114,8 +114,6 @@ main>footer {
         padding-top: 5px;
         padding-left: 5px;
         padding-right: 5px;
-        overflow: auto;
-        display: flex;
-        flex-direction: column;
+        overflow: scroll;
     }
 }
