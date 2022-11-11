@@ -386,6 +386,9 @@ article footer a {
 .video-container {
     height: 40vh;
 }
+.video-container > h2 {
+    display: none;
+}
 
 /* End Video */
 

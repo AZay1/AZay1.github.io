@@ -29,6 +29,11 @@ main {
     grid-column: 1;
     grid-row: 1;
 }
+.articles>h2{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top:-3rem;
+}
 
 .bottom-holder {
     grid-column: 1;
@@ -220,6 +225,10 @@ article {
     height: 10rem;
     width: auto;
     margin: 1rem;
+}
+
+.bottom-holder>h2{
+    margin: 2rem;
 }
 
 /* End Aside */

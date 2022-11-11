@@ -74,7 +74,9 @@ main>footer {
     padding-left: 20%;
     padding-right: 20%;
 }
-
+#pricing>h2{
+    padding-left: 1rem;
+}
 /* End Table */
 
 
