@@ -1,5 +1,5 @@
 Student name: Artur Zaytsev
 Student number: 696861
 Student class: IT1A
-URL student GitHub website: http://136.244.100.94/
-URL student GitHub repository: https://github.com/HUSKI3
+URL student GitHub website: https://azay1.github.io/
+URL student GitHub repository: https://github.com/AZay1/AZay1.github.io/
