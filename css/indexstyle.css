@@ -261,6 +261,10 @@ body {
         position: relative;
         padding: 0% 52%
     }
+
+    .video-container{
+        display:none;
+    }
 }
 
 /* End Main */
